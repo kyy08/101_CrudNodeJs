@@ -5,14 +5,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/views/style.css">    
+
+    <style>
+        .content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+        .logo {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            width: 50px;
+            height: 50px;
+        }
+    </style>
 </head>
 
-<body>
-    <div class="container">
-        <h1>Welcome to the Home Page!</h1>
-        <p>This is the home page of our application.</p>
-        <a href="/contact" class="btn btn-primary">Go to Contact Page</a>
+<body style="background-color: aqua;">
+    <div class="content">
+        <div>
+            <h1>Welcome to the Home Page!</h1>
+            <p>This is the home page of our application.</p>
+            <a href="/todo-view" class="btn btn-primary" style="background-color: white; color: black;">Go to Todo</a>
+        </div>
     </div>
 </body>
 
